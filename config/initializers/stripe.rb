@@ -1,2 +1,2 @@
-Stripe.api_key = "dNXYleQvD4KvAU7rYl2tE9F5I8W1LpNr"
-STRIPE_PUBLISHABLE_KEY = "pk_cUMpZas5rtRQ2u5iyh6JXnimePvi7"
+Stripe.api_key = APP_CONFIG['stripe_secret']
+STRIPE_PUBLIC_KEY = APP_CONFIG['stripe_public']

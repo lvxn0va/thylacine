@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.2'
 gem 'mysql2'
+gem 'sqlite3'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'haml' 
 

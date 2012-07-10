@@ -1,0 +1,11 @@
+development: &non_production_settings
+  stripe_secret: 'xxx'
+  stripe_public: 'xxx'
+    
+test:
+  <<: *non_production_settings
+
+production:
+# stripe_keys:
+#   Api_Secret = "xxx"
+#   Api_Public = "xxx"
